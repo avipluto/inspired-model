@@ -1,0 +1,30 @@
+{
+  "means": {
+    "monthly_stipend": 5158.119764397906,
+    "base_living_expenses": 650.791875,
+    "relocation_rent": 1408.4618922470434,
+    "commute_daily_minutes": 89.91981444665342,
+    "commute_monthly_cost": 301.1901921802518,
+    "employer_flexibility_score": 0.52873125,
+    "hybrid_days_in_office": 1.99375
+  },
+  "stds": {
+    "monthly_stipend": 1361.0382785708207,
+    "base_living_expenses": 170.96185556721235,
+    "relocation_rent": 499.2430342892138,
+    "commute_daily_minutes": 34.51392375214314,
+    "commute_monthly_cost": 103.67106062140634,
+    "employer_flexibility_score": 0.2448610887287678,
+    "hybrid_days_in_office": 0.8276236690066325
+  },
+  "medians": {
+    "monthly_stipend": 5120.0,
+    "base_living_expenses": 622.0,
+    "relocation_rent": 1250.5,
+    "commute_daily_minutes": 89.0,
+    "commute_monthly_cost": 298.0,
+    "employer_flexibility_score": 0.53,
+    "hybrid_days_in_office": 2.0
+  },
+  "is_fitted": true
+}

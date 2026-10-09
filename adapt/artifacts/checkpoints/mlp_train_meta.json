@@ -1,0 +1,220 @@
+{
+  "model": "ConsequenceMLP",
+  "epochs": 30,
+  "duration_seconds": 8.42,
+  "best_val_loss": 2.6459,
+  "baseline_fatigue_mae": 2.0683,
+  "baseline_burnout_mae": 0.2548,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 8.6805,
+      "val_loss": 8.2137,
+      "val_fatigue_mae": 4.2598,
+      "val_burnout_mae": 0.2221
+    },
+    {
+      "epoch": 2,
+      "train_loss": 7.705,
+      "val_loss": 7.5094,
+      "val_fatigue_mae": 3.618,
+      "val_burnout_mae": 0.188
+    },
+    {
+      "epoch": 3,
+      "train_loss": 7.0301,
+      "val_loss": 6.83,
+      "val_fatigue_mae": 2.9998,
+      "val_burnout_mae": 0.1392
+    },
+    {
+      "epoch": 4,
+      "train_loss": 6.44,
+      "val_loss": 6.2317,
+      "val_fatigue_mae": 2.4899,
+      "val_burnout_mae": 0.0958
+    },
+    {
+      "epoch": 5,
+      "train_loss": 5.9678,
+      "val_loss": 5.6859,
+      "val_fatigue_mae": 1.9693,
+      "val_burnout_mae": 0.0959
+    },
+    {
+      "epoch": 6,
+      "train_loss": 5.565,
+      "val_loss": 5.2015,
+      "val_fatigue_mae": 1.5061,
+      "val_burnout_mae": 0.0888
+    },
+    {
+      "epoch": 7,
+      "train_loss": 5.1361,
+      "val_loss": 4.813,
+      "val_fatigue_mae": 1.1754,
+      "val_burnout_mae": 0.0747
+    },
+    {
+      "epoch": 8,
+      "train_loss": 4.8418,
+      "val_loss": 4.492,
+      "val_fatigue_mae": 0.8417,
+      "val_burnout_mae": 0.0702
+    },
+    {
+      "epoch": 9,
+      "train_loss": 4.6258,
+      "val_loss": 4.2978,
+      "val_fatigue_mae": 0.7323,
+      "val_burnout_mae": 0.0457
+    },
+    {
+      "epoch": 10,
+      "train_loss": 4.5529,
+      "val_loss": 4.1312,
+      "val_fatigue_mae": 0.5501,
+      "val_burnout_mae": 0.05
+    },
+    {
+      "epoch": 11,
+      "train_loss": 4.4507,
+      "val_loss": 4.0444,
+      "val_fatigue_mae": 0.4503,
+      "val_burnout_mae": 0.0659
+    },
+    {
+      "epoch": 12,
+      "train_loss": 4.3812,
+      "val_loss": 4.0176,
+      "val_fatigue_mae": 0.5315,
+      "val_burnout_mae": 0.0523
+    },
+    {
+      "epoch": 13,
+      "train_loss": 4.3396,
+      "val_loss": 3.9049,
+      "val_fatigue_mae": 0.3982,
+      "val_burnout_mae": 0.051
+    },
+    {
+      "epoch": 14,
+      "train_loss": 4.248,
+      "val_loss": 3.8799,
+      "val_fatigue_mae": 0.4824,
+      "val_burnout_mae": 0.0427
+    },
+    {
+      "epoch": 15,
+      "train_loss": 4.2111,
+      "val_loss": 3.7721,
+      "val_fatigue_mae": 0.2985,
+      "val_burnout_mae": 0.0546
+    },
+    {
+      "epoch": 16,
+      "train_loss": 4.1645,
+      "val_loss": 3.7548,
+      "val_fatigue_mae": 0.4261,
+      "val_burnout_mae": 0.041
+    },
+    {
+      "epoch": 17,
+      "train_loss": 4.0599,
+      "val_loss": 3.6865,
+      "val_fatigue_mae": 0.3452,
+      "val_burnout_mae": 0.0429
+    },
+    {
+      "epoch": 18,
+      "train_loss": 4.0207,
+      "val_loss": 3.6645,
+      "val_fatigue_mae": 0.4531,
+      "val_burnout_mae": 0.0381
+    },
+    {
+      "epoch": 19,
+      "train_loss": 3.9831,
+      "val_loss": 3.551,
+      "val_fatigue_mae": 0.3299,
+      "val_burnout_mae": 0.0408
+    },
+    {
+      "epoch": 20,
+      "train_loss": 3.8667,
+      "val_loss": 3.4738,
+      "val_fatigue_mae": 0.277,
+      "val_burnout_mae": 0.0389
+    },
+    {
+      "epoch": 21,
+      "train_loss": 3.7948,
+      "val_loss": 3.3795,
+      "val_fatigue_mae": 0.2406,
+      "val_burnout_mae": 0.045
+    },
+    {
+      "epoch": 22,
+      "train_loss": 3.7069,
+      "val_loss": 3.3175,
+      "val_fatigue_mae": 0.315,
+      "val_burnout_mae": 0.0464
+    },
+    {
+      "epoch": 23,
+      "train_loss": 3.5989,
+      "val_loss": 3.2046,
+      "val_fatigue_mae": 0.2129,
+      "val_burnout_mae": 0.0502
+    },
+    {
+      "epoch": 24,
+      "train_loss": 3.5428,
+      "val_loss": 3.1218,
+      "val_fatigue_mae": 0.2251,
+      "val_burnout_mae": 0.051
+    },
+    {
+      "epoch": 25,
+      "train_loss": 3.4385,
+      "val_loss": 3.0258,
+      "val_fatigue_mae": 0.2061,
+      "val_burnout_mae": 0.0428
+    },
+    {
+      "epoch": 26,
+      "train_loss": 3.3449,
+      "val_loss": 2.9621,
+      "val_fatigue_mae": 0.2376,
+      "val_burnout_mae": 0.0604
+    },
+    {
+      "epoch": 27,
+      "train_loss": 3.2733,
+      "val_loss": 2.877,
+      "val_fatigue_mae": 0.2759,
+      "val_burnout_mae": 0.039
+    },
+    {
+      "epoch": 28,
+      "train_loss": 3.2022,
+      "val_loss": 2.7983,
+      "val_fatigue_mae": 0.2761,
+      "val_burnout_mae": 0.041
+    },
+    {
+      "epoch": 29,
+      "train_loss": 3.0962,
+      "val_loss": 2.7043,
+      "val_fatigue_mae": 0.2341,
+      "val_burnout_mae": 0.0447
+    },
+    {
+      "epoch": 30,
+      "train_loss": 3.0039,
+      "val_loss": 2.6459,
+      "val_fatigue_mae": 0.3062,
+      "val_burnout_mae": 0.0499
+    }
+  ]
+}

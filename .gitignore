@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & IDE
+.pytest_cache/
+.vscode/
+.idea/
+
+# Large checkpoints / artifacts (keep directory structure, exclude large temp weights)
+*.egg-info/
+adapt/artifacts/checkpoints/*.tmp
+*.log

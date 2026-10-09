@@ -1,0 +1,29 @@
+{
+  "held_out_examples": 500,
+  "random_baseline": {
+    "top1_accuracy": 0.286,
+    "mrr": 0.5412,
+    "ndcg4": 0.8777
+  },
+  "scratch_transformer": {
+    "top1_accuracy": 0.84,
+    "mrr": 0.9112,
+    "ndcg4": 0.9577,
+    "latency_ms": 36.92
+  },
+  "adapt_hybrid_system": {
+    "top1_accuracy": 0.866,
+    "mrr": 0.9277,
+    "ndcg4": 0.9881,
+    "latency_ms": 8.11,
+    "constraint_violation_rate": 0.0,
+    "clarification_sensitivity": 1.0,
+    "clarification_precision": 1.0
+  },
+  "consequence_mlp": {
+    "fatigue_mae": 0.3062,
+    "fatigue_baseline_mae": 2.0683,
+    "burnout_mae": 0.0499,
+    "burnout_baseline_mae": 0.2548
+  }
+}

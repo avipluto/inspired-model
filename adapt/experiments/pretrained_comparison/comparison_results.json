@@ -1,0 +1,18 @@
+{
+  "scratch_model": {
+    "parameters": 1606724,
+    "size_mb": 18.47,
+    "latency_ms": 32.53,
+    "accuracy": 0.84,
+    "mrr": 0.9112,
+    "ndcg4": 0.9577
+  },
+  "pretrained_architecture": {
+    "parameters": 44301312,
+    "size_mb": 169.0,
+    "latency_ms": 425.43,
+    "accuracy": 0.462,
+    "mrr": 0.6577,
+    "ndcg4": 0.9036
+  }
+}

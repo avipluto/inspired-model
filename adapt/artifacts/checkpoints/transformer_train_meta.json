@@ -1,0 +1,49 @@
+{
+  "model_name": "DecisionTransformer",
+  "parameters": 1606724,
+  "epochs": 4,
+  "batch_size": 32,
+  "lr": 0.0005,
+  "seed": 42,
+  "duration_seconds": 503.12,
+  "best_val_mrr": 0.9104166666666665,
+  "best_checkpoint": "adapt\\artifacts\\checkpoints\\transformer_best.pt",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.7129,
+      "val_loss": 0.5439,
+      "val_top1_acc": 0.835,
+      "val_mrr": 0.9104,
+      "val_ndcg4": 0.96,
+      "epoch_duration_sec": 98.86
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.535,
+      "val_loss": 0.5157,
+      "val_top1_acc": 0.835,
+      "val_mrr": 0.9104,
+      "val_ndcg4": 0.9606,
+      "epoch_duration_sec": 118.06
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5156,
+      "val_loss": 0.5017,
+      "val_top1_acc": 0.825,
+      "val_mrr": 0.9054,
+      "val_ndcg4": 0.9618,
+      "epoch_duration_sec": 157.07
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4091,
+      "val_loss": 0.6134,
+      "val_top1_acc": 0.8175,
+      "val_mrr": 0.9008,
+      "val_ndcg4": 0.9574,
+      "epoch_duration_sec": 128.94
+    }
+  ]
+}

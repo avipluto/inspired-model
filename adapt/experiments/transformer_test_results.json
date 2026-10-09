@@ -1,0 +1,29 @@
+{
+  "dataset": "held_out_test_set",
+  "total_test_examples": 500,
+  "top1_accuracy": 0.84,
+  "mrr": 0.9112,
+  "ndcg4": 0.9577,
+  "per_class_metrics": {
+    "MOVE": {
+      "correct": 343,
+      "total": 343,
+      "accuracy": 1.0
+    },
+    "REQUEST_INFO": {
+      "correct": 77,
+      "total": 82,
+      "accuracy": 0.939
+    },
+    "NEGOTIATE_HYBRID": {
+      "correct": 0,
+      "total": 56,
+      "accuracy": 0.0
+    },
+    "COMMUTE": {
+      "correct": 0,
+      "total": 19,
+      "accuracy": 0.0
+    }
+  }
+}
